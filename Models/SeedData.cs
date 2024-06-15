@@ -48,6 +48,7 @@ public static class SeedData
                     Price = 3.99M
                 }
             );
+            context.SaveChanges();
         }
     }
 }
